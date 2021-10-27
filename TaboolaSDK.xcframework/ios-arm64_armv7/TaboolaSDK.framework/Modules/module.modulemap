@@ -1,0 +1,11 @@
+framework module TaboolaSDK {
+  umbrella header "TaboolaSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module TaboolaSDK.Swift {
+    header "TaboolaSDK-Swift.h"
+    requires objc
+}
