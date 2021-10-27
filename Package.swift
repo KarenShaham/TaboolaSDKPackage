@@ -18,7 +18,7 @@ let package = Package(
         .target(name: "TaboolaSDKLibrary", dependencies: ["TaboolaSDK"]), //TODO: Delete later
         .binaryTarget(name: "TaboolaSDK",
                       url: "https://github.com/KarenShaham/TBLXCFramework/blob/main/TaboolaSDK.xcframework.zip",
-                      checksum: "b93f0a24dffa25bd7295192f56ee5827c234724fc3ffae4b76a4692c44bd45c5"),
+                      checksum: "0d1f76dced148890c3becb7e2a5091ced516d64e1e53e57c14c38ce8812d648f"),
         .testTarget(
             name: "TaboolaSDKLibraryTests",
             dependencies: ["TaboolaSDKLibrary"]),
