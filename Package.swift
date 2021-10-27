@@ -20,6 +20,6 @@ let package = Package(
                       path: "TaboolaSDK.xcframework"),
         .testTarget(
             name: "TaboolaSDKLibraryTests",
-            dependencies: ["TaboolaSDKLibraryTests"]),
+            dependencies: ["TaboolaSDKLibrary"]),
     ]
 )
