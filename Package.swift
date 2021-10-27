@@ -8,8 +8,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "TBLsdkPackage",
-            targets: ["TaboolaSDKLibraryTests"]),
+            name: "TaboolaSDKLibrary",
+            targets: ["TaboolaSDK", "TaboolaSDKLibraryTests"]),
     ],
     dependencies: [],
     targets: [
@@ -20,6 +20,6 @@ let package = Package(
                       path: "TaboolaSDK.xcframework"),
         .testTarget(
             name: "TaboolaSDKLibraryTests",
-            dependencies: ["TBLsdkPackage"]),
+            dependencies: ["TaboolaSDKLibraryTests"]),
     ]
 )
