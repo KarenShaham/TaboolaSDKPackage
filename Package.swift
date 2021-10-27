@@ -17,7 +17,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(name: "TaboolaSDKLibrary", dependencies: ["TaboolaSDK"]), //TODO: Delete later
         .binaryTarget(name: "TaboolaSDK",
-                      url: "https://github.com/KarenShaham/TBLXCFramework"),
+                      url: "https://github.com/KarenShaham/TBLXCFramework.framework"),
         .testTarget(
             name: "TaboolaSDKLibraryTests",
             dependencies: ["TaboolaSDKLibrary"]),
