@@ -35,6 +35,6 @@ let package = Package(
             ),
         .testTarget(
             name: "TaboolaSDKPackageTests",
-            dependencies: ["TaboolaSDKPackage"]),
+            dependencies: ["ModuleX"]),
     ]
 )
