@@ -8,7 +8,3 @@
 import Foundation
 import TaboolaSDK
 
-module TaboolaSDK.Swift {
-    header "TaboolaSDK-Swift.h"
-    requires objc
-}
