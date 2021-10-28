@@ -23,12 +23,12 @@ let package = Package(
             dependencies: [],
             exclude: [],
             cSettings: [
-                  .headerSearchPath("TaboolaSDKFramework"),
+                  .headerSearchPath("Sources/ModuleX-ObjC"),
                ]),
         .target(
             name: "ModuleX",
             dependencies: ["ModuleX-ObjC"],
-            path: "TaboolaSDKPackage"),
+            path: "Sources/TaboolaSDKPackage"),
         .target(
             name: "TaboolaSDKPackage"),
         .binaryTarget(
