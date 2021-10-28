@@ -6,16 +6,16 @@
 //
 
 import UIKit
-import TaboolaSDK
+//import TaboolaSDK
 
-class TaboolaSDKFramework: UIViewController, TBLClassicPageDelegate {
-    var classicPage: TBLClassicPage?
-    var taboolaWidgetPlacement: TBLClassicUnit?
-    var taboolaFeedPlacement: TBLClassicUnit?
+class TaboolaSDKFramework: UIViewController {
+//     var classicPage: TBLClassicPage?
+//     var taboolaWidgetPlacement: TBLClassicUnit?
+//     var taboolaFeedPlacement: TBLClassicUnit?
    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+//     required init?(coder: NSCoder) {
+//         fatalError("init(coder:) has not been implemented")
+//     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,6 @@ class TaboolaSDKFramework: UIViewController, TBLClassicPageDelegate {
     }
         
     func taboolaInit(){
-        classicPage = TBLClassicPage.init(pageType: "mix", pageUrl: "https://www.google.com", delegate: self, scrollView: nil)
+//         classicPage = TBLClassicPage.init(pageType: "mix", pageUrl: "https://www.google.com", delegate: self, scrollView: nil)
     }
 }
