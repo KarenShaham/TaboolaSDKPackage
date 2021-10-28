@@ -29,6 +29,8 @@ let package = Package(
             name: "ModuleX",
             dependencies: ["ModuleX-ObjC"],
             path: "TaboolaSDKPackage"),
+        .target(
+            name: "TaboolaSDKPackage"),
         .binaryTarget(
             name: "TaboolaSDK",
             path: "TaboolaSDK.xcframework"
