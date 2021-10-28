@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "TaboolaSDKPackage",
-            targets: ["TaboolaSDKPackage", "ModuleX-ObjC", "ModuleX", "TaboolaSDK"]),
+            targets: ["ModuleX-ObjC", "ModuleX", "TaboolaSDK"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -29,8 +29,6 @@ let package = Package(
             name: "ModuleX",
             dependencies: ["ModuleX-ObjC"],
             path: "Sources/TaboolaSDKPackage"),
-        .target(
-            name: "TaboolaSDKPackage"),
         .binaryTarget(
             name: "TaboolaSDK",
             path: "TaboolaSDK.xcframework"
